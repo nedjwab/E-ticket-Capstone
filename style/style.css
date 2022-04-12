@@ -64,7 +64,7 @@ body {
 .headlineSection {
   max-width:100%;
   max-height:100%;
-  background-image: url("/images/background.jpg");
+  background-image: url("/images/bg2.jpg");
   background-size: cover;
   position: relative;
   margin-bottom: 0;
@@ -126,7 +126,7 @@ body {
 
 .icons {
   color:white;
-  font-size: 10px;
+  width: 38px;
 }
 
 .program {
@@ -146,7 +146,7 @@ body {
   justify-content:space-between;
   background-color: #363230;
   padding: 10px;
-  margin:13px 20px 17px 30px;
+  margin:13px 30px 17px 30px;
 }
 
 .text {
@@ -157,13 +157,15 @@ body {
 
 .card img {
   width:20%;
+  height:30%;
   color: white;
 }
 
 .program h2 {
-  margin-top: 0;
+  margin-top: 9px;
+  margin-bottom: 4px;
   color:white;
-  text-decoration-line: overline ;
+  text-decoration-line: underline ;
 }
 
 .card h3 {
