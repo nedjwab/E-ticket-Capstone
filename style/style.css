@@ -333,7 +333,22 @@ body {
   margin-right: 5px;
 }
 
+.footer {
+  background-color:white;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+  padding:20px 10px;
+}
 
+.footerlogo {
+  margin-top: 20px;
+  margin-right: 19px;
+  margin-left: 27px;
+}
 
 
 @media (min-width: 768px) {
