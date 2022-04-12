@@ -124,20 +124,26 @@ body {
   font-size: 27px;
 }
 
+.image {
+ width:40%;
+ margin-left: 27px;
+}
+
 .icons {
   color:white;
-  width: 38px;
+  width: 78px;
 }
 
 .program {
   background-color:black;
   margin-top: 0;
   padding-right: 20px;
+  padding-bottom: 55px;
+  padding-top: 30px;
   display: grid;
   justify-items: center;
   justify-content: center;
   width: 100%;
- 
 }
 
 .card {
@@ -161,9 +167,9 @@ body {
   color: white;
 }
 
-.program h2 {
+.titre {
   margin-top: 9px;
-  margin-bottom: 4px;
+  margin-bottom: 23px;
   color:white;
   text-decoration-line: underline ;
 }
@@ -185,6 +191,79 @@ body {
   margin-top: 10px;
   border-radius: 18px 5px;
 }
+
+.speaker {
+  font-family: "Arial", sans-serif;
+  background-color:white;
+  padding-right: 20px;
+  padding-bottom: 55px;
+  padding-top: 30px;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.speaker h2 {
+  color:#000;
+}
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: white;
+  z-index:2;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
+  z-index: 2;
+}
+
+.nav-menu.active {
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  flex-direction: column;
+  background-color:var(--joyful);
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0.9;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  left: 0;
+  z-index:2;
+}
+.nav-menu a {
+  color: white;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.nav-item {
+  margin: 60px 0 0 30px;
+  color: white;
+}
+
+.headlineSection.active {
+  filter: blur(4px);
+}
+
+.navbar {
+  z-index: 1;
+}
+
+
+
 
 @media (min-width: 768px) {
   #logo img {
