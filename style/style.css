@@ -1,7 +1,7 @@
 :root {
-   --dark:#272A31;
-   --joyful:#EC5242;
-   --light:#D3D3D3;
+  --dark: #272a31;
+  --joyful: #ec5242;
+  --light: #d3d3d3;
 }
 
 body {
@@ -64,7 +64,7 @@ body {
 .headlineSection {
   max-width:100%;
   max-height:100%;
-  background-image: url("/images/bg7.jpg");
+  background-image: url("/images/bg2.jpg");
   background-size: cover;
   position: relative;
   margin-bottom: 0;

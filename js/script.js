@@ -1,8 +1,6 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
-const body = document.querySelector('body');
-const headlineSection=document.querySelector('.headlineSection');
-
+const headlineSection = document.querySelector('.headlineSection');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -21,7 +19,7 @@ const object = [
     Name: 'Dj Snake',
     img: '/images/djsnake.jpg',
     description:
-    'A daily selection of privately personalized reads no accounts or sign-ups required.'
+    'A daily selection of privately personalized reads no accounts or sign-ups required.',
   },
   {
     id: 2,
@@ -54,7 +52,9 @@ for (let i = 1; i < object.length; i += 1) {
   </div>`;
 }
 
-const programButton= document.createElement('button');
+const programButton = document.createElement('button');
 programButton.setAttribute('class', 'programButton');
 programButton.innerHTML = 'More <i class="fas fa-arrow-circle-right fa-lg"></i>';
 dj.append(programButton);
+
+const djList = document.querySelector('.djList');
