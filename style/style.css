@@ -192,7 +192,7 @@ body {
   border-radius: 18px 5px;
 }
 
-.speaker {
+.dj {
   font-family: "Arial", sans-serif;
   background-color:white;
   padding-right: 20px;
@@ -204,7 +204,7 @@ body {
   width: 100%;
 }
 
-.speaker h2 {
+.dj h2 {
   color:#000;
 }
 .hamburger.active .bar:nth-child(2) {
@@ -239,6 +239,7 @@ body {
   left: 0;
   z-index:2;
 }
+
 .nav-menu a {
   color: white;
   margin: 0;
