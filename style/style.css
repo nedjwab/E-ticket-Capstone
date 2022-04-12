@@ -300,6 +300,38 @@ body {
   filter: blur(4px);
 }
 
+.Sponsor {
+  background-color:black;
+  padding-bottom: 12px;
+  overflow-x: hidden;
+}
+
+.Sponsor h3 {
+  color:white;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size:29px;
+}
+
+.sponsorList {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
+  padding: 14px;
+  margin-left: 8px;
+  margin-right: 14px;
+  overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsorList img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-right: 5px;
+}
 
 
 
