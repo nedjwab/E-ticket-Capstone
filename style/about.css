@@ -215,7 +215,7 @@
   }
   
   .first-section {
-    background: url("/images/test.jpg");
+    background: url("/images/white2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -403,39 +403,43 @@
     margin-block: 10%;
     cursor: pointer;
   }
-  
-  .partners-section {
-    background-color: #3f444f;
+ 
+  .Sponsor {
+    background-color: black;
+    padding-bottom: 12px;
+    overflow-x: hidden;
   }
   
-  .partners-heading {
+  .Sponsor h3 {
+    color: white;
     text-align: center;
-    color: #fff;
-    padding-top: 10%;
+    font-family: "Arial", sans-serif;
+    font-size: 29px;
   }
   
-  .partners-list img {
-    filter:
-      invert(100%) sepia(0%) saturate(0%) hue-rotate(311deg)
-      brightness(102%) contrast(105%);
-  }
-  
-  .partners-flex {
-    width: 90%;
-    margin: auto;
-    margin-top: 10%;
+  .sponsorList {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    padding: 14px;
+    margin-left: 17px;
+    margin-left: 17px;
+    overflow-x: hidden;
+    align-items: center;
   }
   
-  .partner-list {
+  .sponsorList img {
     width: 100%;
+    height: auto;
+    text-align: center;
   }
   
-  .partner-image {
-    width: 125px;
-    height: 40px;
+  .sponsorImg {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-right: 7px;
   }
   
   footer {
@@ -667,5 +671,37 @@
 
     .hamburger {
         display:none;
+    }
+
+    .sponsorList {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      justify-content: space-between;
+      padding: 14px;
+      margin-left: 90px;
+      overflow-x: hidden;
+      align-items: center;
+    }
+  
+    .Sponsor h3 {
+      margin-top: 17px;
+      margin-bottom: 10px;
+      color: white;
+      font-family:"cocogoose", sans-serif;
+    }
+  
+    .sponsorList img {
+      width: 70%;
+      height: auto;
+      text-align: center;
+      margin-right: 9px;
+    }
+  
+    .sponsorImg {
+      width: 70%;
+      height: auto;
+      text-align: center;
+      margin-right: 9px;
     }
   }
