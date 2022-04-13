@@ -203,11 +203,10 @@ body {
 }
 
 .dj {
-  font-family: "Arial", sans-serif;
   background-color: white;
   margin-top: 0;
   padding-right: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 55px;
   padding-top: 30px;
   display: grid;
   justify-items: center;
@@ -445,15 +444,14 @@ body {
     color: var(--light);
     margin: 12px 0;
   }
-
  
   .cards {
-      display: -ms-grid;
-      display: grid;
-      grid-template-columns: 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
-      width: 100%;
-      margin-inline: auto;
-      margin-top: 54px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 54px;
   }
 
   .card {
@@ -510,4 +508,69 @@ body {
   hr:hover{
     width: 9%;
   }
+
+  .programButton {
+    display:None;
+  }
+
+  .dj {
+    background-color:white;
+    margin-top: 0;
+    padding-right: 20px;
+    padding-bottom: 55px;
+    padding-top: 30px;
+    display: grid;
+    justify-items: center;
+    width: 100%;
+  }
+  
+  .djitems {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    padding-right: 20px;
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 54px;
+  }
+  
+  .dj h2 {
+    color: #000;
+  }
+  
+  .djList {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 2%;
+  }
+  
+  .djContent {
+    margin: 10px 20px 17px 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+  }
+  
+  .djDetail {
+    position: relative;
+    background-image: url('/images/notebg.png');
+    background-size: 37% 37%;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+  }
+  
+  .djList img {
+    width: 130px;
+    height: 130px;
+    object-position: bottom;
+    object-fit: cover;
+    padding-left: 40px;
+    padding-top: 30px;
+    margin-right: 15px;
+  }
+  
+  .djContent h3 {
+    color: var(--joyful);
+    margin-top: 30px;
+  }
+  
 }
