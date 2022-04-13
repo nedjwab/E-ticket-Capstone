@@ -19,6 +19,16 @@
     line-height: 1.5rem;
   }
 
+  #header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .icons {
     color:white;
     width: 40px;
@@ -52,6 +62,47 @@
     transition: all 0.3s ease-in-out;
     background-color:var(--dark);
   }
+
+  .DesktopNav  {
+    display: flex;
+    font-size: 15px;
+    color: #777676;
+    font-family: "lato", sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    width: 40%;
+    color: var(--dark);
+    padding-bottom: 6px;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    background-color: #272a31;
+    justify-content: end;
+    padding: 1% 8% 1% 2%;
+    gap: 25px;
+    background-color: var(--dark);
+    margin-top: 0;
+  }
+
+  .top a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .DesktopNav a {
+    text-decoration: none;
+    color:var(--dark);
+  }
+
+  .DesktopNav a:hover {
+    text-decoration: none;
+    color:var(--joyful);
+  }
+
   
 
   .hamburger.active .bar:nth-child(2) {
@@ -246,9 +297,14 @@
   }
   
   .open-heading {
-    font-family: "cocogoose", sans-serif;
-    font-size: 2.8rem;
-    color: #ec5242;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'cocogoose', sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url("/images/orange.jpg");
+    background-size: cover;
+    margin-top: 13px;
     margin: 0;
     text-align: center;
   }
@@ -332,7 +388,7 @@
     text-align: center;
     width: 75%;
     font-size: 0.93rem;
-    color: #fff;
+    color: var(--dark);
   }
   
   .flex-content {

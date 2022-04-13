@@ -418,6 +418,7 @@ hr {
   .topElement {
     color: white;
     font-size: 17px;
+    font-family: "lato", sans-serif;
   }
 
   .DesktopNav {
