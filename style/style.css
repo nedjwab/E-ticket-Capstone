@@ -650,4 +650,19 @@ hr {
     padding: 20px 10px;
   }
 
+  .title{
+    animation: MoveUpDown 3s linear 0s;
+  }
+
+  @keyframes MoveUpDown {
+    from {
+      margin-left: 20px;
+    }
+
+    to {
+      margin-left: 40px;
+    }
+  }
+
+
 }
