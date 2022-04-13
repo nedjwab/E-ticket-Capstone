@@ -39,7 +39,7 @@
     margin:14px 30px;
     display: block;
     cursor: pointer;
-    z-index: 1;
+    z-index: 3;
   }
   
   .bar {
@@ -59,13 +59,14 @@
   }
   
   .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-    background-color: var(--dark);
+    margin-top: 17px;
+    transform: translateY(13px) rotate(47deg);
+    background-color:white;
   }
   
   .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-    background-color: var(--dark);
+    transform: translateY(-8px) rotate(-47deg);
+    background-color:white;
   }
   
   .nav-menu.active {
@@ -90,27 +91,50 @@
   }
   
   .navbar {
+    margin: 0;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    z-index:1;
   }
-  
-  
-  .cancel {
-    display: none;
-    cursor: pointer;
-    z-index: 10;
+
+  .nav-item {
+    margin: 60px 0 0 30px;
+    color: white;
   }
-  
-  .cancel p {
-    font-size: 3.2rem;
-    position: absolute;
+
+  .nav-menu.active {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    flex-direction: column;
+    background-color: var(--joyful);
+    align-items: flex-start;
+    justify-content: flex-start;
+    opacity: 0.9;
+    position: fixed;
     margin: 0;
-    top: 1.3rem;
-    left: 1.3rem;
-    color: black;
-    z-index: 100;
+    padding: 0;
+    overflow-x: hidden;
+    left: 0;
+    z-index: 2;
+  }
+
+  .design {
+    text-decoration: none;
+    list-style: none;
   }
   
+  .nav-menu a {
+    color: white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
   .logo {
     margin-top: 9px;
     margin-left: 4px;
