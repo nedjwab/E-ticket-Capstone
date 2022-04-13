@@ -87,8 +87,9 @@ body {
 
 .content {
   margin-left: 27px;
-  margin-top: 70px;
+  margin-top: 20px;
   margin-right: 17px;
+  margin-bottom: 0;
 }
 
 .transparentText {
@@ -108,18 +109,19 @@ body {
   -webkit-text-fill-color: transparent;
   background-image: url("/images/orange.jpg");
   background-size: cover;
-  margin-top: 8px;
+  margin-top: 13px;
 }
 
 .description {
-  background-color: grey;
-  margin-top: 20px;
-  margin-bottom: 55px;
-  font-size: 20px;
-  font-family: "Lato", sans-serif;
-  color: white;
+  margin-bottom: 12px;
+  background-color: #f7f7f8;
   padding: 14px;
-  border-radius: 18px 4px;
+  font-family: 'cocogoose', sans-serif;
+  text-align: center;
+  border: 3px solid white;
+  width: 90%;
+  font-size: 1.1rem;
+  color:black;
 }
 
 .date {
@@ -127,11 +129,14 @@ body {
   color: var(--dark);
   font-weight: 700;
   font-size: 27px;
-  margin: 12px 0;
+  margin: 30px 0;
 }
 
 .place { 
-
+  font-family: Arial, sans-serif;
+  color: var(--dark);
+  font-weight: 400;
+  font-size: 17px;
 }
 
 .image {
@@ -160,9 +165,20 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   background-color: #363230;
-  padding: 10px;
   margin: 13px 30px 17px 30px;
+  padding-bottom: 20px;
+  padding-top:20px;
+}
+
+.prgimg {
+  text-align: center;
+  color:white;
+  width: 20%;
+  height: unset;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 hr {
@@ -174,7 +190,7 @@ hr {
 }
 
 .text {
-  padding: 14px;
+  text-align: left;
   font-family: "Lato", sans-serif;
   color: white;
 }
@@ -195,6 +211,7 @@ hr {
 .card h3 {
   color: var(--joyful);
   text-align: center;
+  padding-right: 9px;
 }
 
 .programButton {
@@ -457,14 +474,16 @@ hr {
   }
 
   .description {
-    padding: 1%;
+    font-family: 'cocogoose', sans-serif;
     background-color: #f7f7f8;
-    text-align: center;
     border: 3px solid white;
+    padding:14px;
     margin-top: 5%;
     width: 55%;
-    font-size: 1.1rem;
+    font-size: 17px;
+    text-align: left;
     color:black;
+    margin-bottom: 70px;
   }
 
   .date {
