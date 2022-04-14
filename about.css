@@ -130,7 +130,7 @@ p {
 
 .logo {
   margin-top: 9px;
-  margin-left: 4px;
+  margin-left: 20px;
   display: inline;
   width: 80%;
 }
@@ -215,7 +215,7 @@ p {
 }
 
 .navButton {
-  width: 130px;
+  width: 150px;
   padding: 12px;
   border: 5px solid var(--joyful);
   background-color: white;
@@ -223,6 +223,8 @@ p {
   font-weight: 500;
   font-size: 15px;
   color: var(--joyful);
+  margin-left: 90px;
+  margin-top:5px;
 }
 
 .first-section-container {
@@ -473,6 +475,13 @@ footer {
     padding-bottom: 6px;
   }
 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 90px;
+    padding-left: 55px;
+  }
+
   .top {
     display: flex;
     flex-direction: row;
@@ -488,9 +497,18 @@ footer {
     color: white;
   }
 
+  .logo {
+    margin-top: 9px;
+    margin-left: 90px;
+    display: inline;
+    width: 80%;
+  }
+  
+
   .DesktopNav a {
     text-decoration: none;
     color: var(--dark);
+    margin-right: 40px;
   }
 
   .DesktopNav a:hover {
@@ -601,16 +619,6 @@ footer {
     width: 70%;
     margin-inline: auto;
     margin-block: 3%;
-  }
-
-  .logo-container {
-    width: 30%;
-    background-color: rgb(211, 211, 211, 0.1);
-  }
-
-  .logo-container img {
-    margin: auto;
-    display: block;
   }
 
   .horizontal-line {

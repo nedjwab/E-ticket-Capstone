@@ -2,9 +2,8 @@
 
 # First Capstone Project :Summer Festivel 2022
 
-In this Project i have built My Responsive Portfolio.
+In this Project i have built a summer festival web site.
 
-![alt text](https://github.com/nedjwab/MyPortfolio/blob/main/images/portfolio.PNG)
  
 
 ## Built With 🔨
@@ -34,7 +33,7 @@ go to the index.html file .
 - For anyone who wants to create his own portfolio.
 
 ## Live Demo 
-[Here](https://nedjwab.github.io/MyPortfolio/) yo can find a live demo of my Portfolio .
+[Here](https://nedjwab.github.io/E-ticket-Capstone/) yo can find a live demo of my Portfolio .
 
 ## Authors
 
