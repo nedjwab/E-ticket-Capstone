@@ -81,6 +81,13 @@ body {
   text-align: center;
 }
 
+.sponsorList {
+  -webkit-filter: grayscale(100%); 
+  moz-filter: grayscale(100%); 
+  filter: grayscale(100%); 
+  filter: gray; 
+}
+
 #logo img {
   margin-top: 9px;
   margin-left: 4px;
@@ -349,7 +356,7 @@ hr {
 }
 
 .Sponsor {
-  background-color: black;
+  background-color: #272a31;
   padding-bottom: 12px;
   overflow-x: hidden;
 }
@@ -412,7 +419,7 @@ hr {
   }
 
   .sponsorList img {
-    width: 70%;
+    width: 40%;
     height: auto;
     text-align: center;
     margin-right: 9px;
@@ -643,7 +650,7 @@ hr {
     display: flex;
     flex-direction: row;
     width: 90%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 14px;
     margin-left: 90px;
     overflow-x: hidden;
@@ -658,7 +665,7 @@ hr {
   }
 
   .sponsorImg {
-    width: 70%;
+    width: 30%;
     height: auto;
     text-align: center;
     margin-right: 9px;
