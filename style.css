@@ -196,6 +196,7 @@ body {
 .card {
   display: flex;
   flex-direction: row;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
   background-color: #363230;
@@ -384,15 +385,15 @@ hr {
   font-family: "Lato", sans-serif;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 20px 10px;
 }
 
-.footerlogo {
-  margin-top: 20px;
-  margin-right: 19px;
-  margin-left: 27px;
+.footerText {
+  font-size: 1rem;
+  margin: 25px;
+  color: #000;
 }
 
 @media (min-width: 768px) {

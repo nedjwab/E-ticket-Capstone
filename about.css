@@ -240,6 +240,7 @@ p {
 }
 
 .open-heading {
+  width: 100%;
   font-size: 80px;
   font-weight: 700;
   font-family: 'cocogoose', sans-serif;
@@ -439,8 +440,14 @@ hr {
 }
 
 footer {
-  min-height: 5rem;
-  background-color: #fff;
+  background-color: white;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 10px;
 }
 
 .footerContainer {
@@ -654,8 +661,19 @@ footer {
     padding-bottom: 40px;
   }
 
+  .Sponsor {
+    display: none;
+  }
+
   footer {
-    background-color: rgb(0, 0, 0, 0.8);
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 10px;
   }
 
   .footerContainer {
@@ -663,7 +681,9 @@ footer {
   }
 
   .copy-right {
-    color: white;
+    font-size: 1rem;
+    margin: 25px;
+    color: var(--light);
   }
 
   .hamburger {
