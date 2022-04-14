@@ -4,7 +4,7 @@
 
 In this Project i have built a summer festival web site.
 
-![alt text](https://github.com/nedjwab/E-ticket-Capstone/blob/main/images/Mainscreenshot.png)
+![alt text](https://github.com/nedjwab/E-ticket-Capstone/blob/project-branch/images/Mainscreenshot.png)
  
  
 
