@@ -208,7 +208,7 @@ p {
 }
 
 .first-section {
-  background: url("/images/white2.jpg");
+  background: url("images/white2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -245,7 +245,7 @@ p {
   font-family: 'cocogoose', sans-serif;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url("/images/orange.jpg");
+  background-image: url("images/orange.jpg");
   background-size: cover;
   margin-top: 13px;
   text-align: center;
@@ -298,11 +298,11 @@ p {
 }
 
 .events .event:nth-child(1) {
-  background-image: url("/images/bg2.jpg");
+  background-image: url("images/bg2.jpg");
 }
 
 .events .event:nth-child(2) {
-  background-image: url("/images/concert.jpg");
+  background-image: url("images/concert.jpg");
   background-color: #ec5242;
 }
 

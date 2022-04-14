@@ -93,7 +93,7 @@ body {
   max-height: 100%;
   display: flex;
   flex-direction: column;
-  background-image: url("/images/white2.jpg");
+  background-image: url("images/white2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -128,7 +128,7 @@ body {
   font-family: 'cocogoose', sans-serif;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url("/images/orange.jpg");
+  background-image: url("images/orange.jpg");
   background-size: cover;
   margin-top: 13px;
 }
@@ -274,7 +274,7 @@ hr {
 
 .djDetail {
   position: relative;
-  background-image: url('/images/notebg.png');
+  background-image: url('images/notebg.png');
   background-size: 37% 37%;
   background-repeat: no-repeat;
   margin-top: 10px;
@@ -612,7 +612,7 @@ hr {
 
   .djDetail {
     position: relative;
-    background-image: url('/images/notebg.png');
+    background-image: url('images/notebg.png');
     background-size: 37% 37%;
     background-repeat: no-repeat;
     margin-top: 10px;

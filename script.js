@@ -17,49 +17,49 @@ const object = [
   {
     id: 1,
     Name: 'Dj Snake',
-    img: '/images/test.jpg',
+    img: 'images/test.jpg',
     description:
     'A daily selection of privately personalized reads no accounts or sign-ups required.',
   },
   {
     id: 2,
     Name: 'dj marshmellow',
-    img: '/images/Marshmello.jpeg',
+    img: 'images/Marshmello.jpeg',
     description:
     'Experimental content creation feature that allows users to  add  to an existing story over the course of a day without spamming their friends',
   },
   {
     id: 3,
     Name: 'Dj Don Diablo',
-    img: '/images/DonDiablo.jpeg',
+    img: 'images/DonDiablo.jpeg',
     description:
     "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..",
   },
   {
     id: 4,
     Name: 'Dj Peggy Gou',
-    img: '/images/PeggyGou.jpeg',
+    img: 'images/PeggyGou.jpeg',
     description:
     "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..",
   },
   {
     id: 5,
     Name: 'Dj David Guetta',
-    img: '/images/DavidGuetta.jpg',
+    img: 'images/DavidGuetta.jpg',
     description:
     "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..",
   },
   {
     id: 6,
     Name: 'Dj Nervo',
-    img: '/images/Nervo.png',
+    img: 'images/Nervo.png',
     description:
     "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..",
   },
   {
     id: 7,
     Name: 'Dj Snake',
-    img: '/images/djsnake.jpg',
+    img: 'images/djsnake.jpg',
     description:
     'A daily selection of privately personalized reads no accounts or sign-ups required.',
   },
