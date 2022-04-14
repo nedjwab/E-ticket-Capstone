@@ -396,6 +396,10 @@ hr {
   color: #000;
 }
 
+.card:hover {
+  border: solid 2px white;
+}
+
 @media (min-width: 768px) {
   .djList img {
     width: 130px;
