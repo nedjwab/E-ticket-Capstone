@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: white;
-  z-index:1;
+  z-index: 1;
 }
 
 .top {
@@ -59,6 +59,28 @@ body {
   background-color: var(--dark);
 }
 
+.card img {
+  width: 20%;
+  height: 30%;
+  color: white;
+}
+
+.djList img {
+  width: 130px;
+  height: 130px;
+  object-position: bottom;
+  object-fit: cover;
+  padding-left: 40px;
+  padding-top: 30px;
+  margin-right: 15px;
+}
+
+.sponsorList img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
 #logo img {
   margin-top: 9px;
   margin-left: 4px;
@@ -94,7 +116,6 @@ body {
 
 .transparentText {
   z-index: 1;
-  font-size: 19px;
   color: var(--joyful);
   font-size: 27px;
   font-family: 'cocogoose', sans-serif;
@@ -121,7 +142,7 @@ body {
   border: 3px solid white;
   width: 90%;
   font-size: 1.1rem;
-  color:black;
+  color: black;
 }
 
 .date {
@@ -132,7 +153,7 @@ body {
   margin: 30px 0;
 }
 
-.place { 
+.place {
   font-family: Arial, sans-serif;
   color: var(--dark);
   font-weight: 400;
@@ -169,12 +190,12 @@ body {
   background-color: #363230;
   margin: 13px 30px 17px 30px;
   padding-bottom: 20px;
-  padding-top:20px;
+  padding-top: 20px;
 }
 
 .prgimg {
   text-align: center;
-  color:white;
+  color: white;
   width: 20%;
   height: unset;
   margin-bottom: 20px;
@@ -195,17 +216,11 @@ hr {
   color: white;
 }
 
-.card img {
-  width: 20%;
-  height: 30%;
-  color: white;
-}
-
 .titre {
   margin-top: 9px;
   margin-bottom: 10px;
   color: white;
-  font-family:"cocogoose", sans-serif;
+  font-family: "cocogoose", sans-serif;
 }
 
 .card h3 {
@@ -265,16 +280,6 @@ hr {
   margin-top: 10px;
 }
 
-.djList img {
-  width: 130px;
-  height: 130px;
-  object-position: bottom;
-  object-fit: cover;
-  padding-left: 40px;
-  padding-top: 30px;
-  margin-right: 15px;
-}
-
 .djContent h3 {
   color: var(--joyful);
   margin-top: 30px;
@@ -287,12 +292,12 @@ hr {
 .hamburger.active .bar:nth-child(1) {
   margin-top: 17px;
   transform: translateY(13px) rotate(47deg);
-  background-color:white;
+  background-color: white;
 }
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-47deg);
-  background-color:white;
+  background-color: white;
 }
 
 .nav-menu.active {
@@ -351,15 +356,8 @@ hr {
   justify-content: space-between;
   padding: 14px;
   margin-left: 17px;
-  margin-left: 17px;
   overflow-x: hidden;
   align-items: center;
-}
-
-.sponsorList img {
-  width: 100%;
-  height: auto;
-  text-align: center;
 }
 
 .sponsorImg {
@@ -387,6 +385,23 @@ hr {
 }
 
 @media (min-width: 768px) {
+  .djList img {
+    width: 130px;
+    height: 130px;
+    object-position: bottom;
+    object-fit: cover;
+    padding-left: 40px;
+    padding-top: 30px;
+    margin-right: 15px;
+  }
+
+  .sponsorList img {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    margin-right: 9px;
+  }
+
   #logo img {
     display: inline;
     width: 49%;
@@ -407,7 +422,6 @@ hr {
   .top {
     display: flex;
     flex-direction: row;
-    background-color: #272a31;
     justify-content: end;
     padding: 1% 8% 1% 2%;
     gap: 25px;
@@ -424,7 +438,6 @@ hr {
   .DesktopNav {
     display: flex;
     font-size: 15px;
-    color: #777676;
     font-family: "lato", sans-serif;
     justify-content: space-between;
     align-items: center;
@@ -434,13 +447,13 @@ hr {
     padding-bottom: 6px;
   }
 
-  .DesktopNav  a {
-    color:black;
+  .DesktopNav a {
+    color: black;
     text-decoration: none;
   }
 
-  .DesktopNav  a:hover {
-    color:var(--joyful);
+  .DesktopNav a:hover {
+    color: var(--joyful);
     text-decoration: none;
   }
 
@@ -467,23 +480,16 @@ hr {
     margin-left: 150px;
   }
 
-  .title {
-    font-size: 80px;
-    font-weight: 700;
-    font-family: 'cocogoose', sans-serif;
-    color:var(--joyful);
-  }
-
   .description {
     font-family: 'cocogoose', sans-serif;
     background-color: #f7f7f8;
     border: 3px solid white;
-    padding:14px;
+    padding: 14px;
     margin-top: 5%;
     width: 55%;
     font-size: 17px;
     text-align: left;
-    color:black;
+    color: black;
     margin-bottom: 70px;
   }
 
@@ -494,14 +500,14 @@ hr {
     font-size: 27px;
     margin: 12px 0;
   }
-  
-  .place { 
+
+  .place {
     font-family: Arial, sans-serif;
     color: var(--dark);
     font-weight: 400;
     font-size: 17px;
   }
-  
+
   .cards {
     display: -ms-grid;
     display: grid;
@@ -521,7 +527,7 @@ hr {
     color: white;
     width: 30px;
   }
-  
+
   .titre {
     width: 95%;
     margin: 0;
@@ -547,14 +553,14 @@ hr {
 
   .prgimg {
     text-align: center;
-    color:white;
+    color: white;
     width: 100%;
     height: unset;
     margin-bottom: 20px;
     margin-top: 20px;
   }
 
-  hr{
+  hr {
     width: 4%;
     margin-inline: auto;
     border: none;
@@ -562,12 +568,12 @@ hr {
     background: var(--joyful);
   }
 
-  hr:hover{
+  hr:hover {
     width: 9%;
   }
 
   .dj {
-    background-color:white;
+    background-color: white;
     margin-top: 0;
     padding-right: 20px;
     padding-bottom: 55px;
@@ -576,7 +582,7 @@ hr {
     justify-items: center;
     width: 100%;
   }
-  
+
   .djitems {
     display: -ms-grid;
     display: grid;
@@ -586,25 +592,24 @@ hr {
     margin-inline: auto;
     margin-top: 54px;
     margin-left: 27px;
- 
   }
-  
+
   .dj h2 {
     color: #000;
   }
-  
+
   .djList {
     flex-direction: row;
     justify-content: space-between;
     margin-inline: 6%;
   }
-  
+
   .djContent {
     margin: 10px 20px 17px 10px;
     font-family: "Lato", sans-serif;
     font-size: 13px;
   }
-  
+
   .djDetail {
     position: relative;
     background-image: url('/images/notebg.png');
@@ -612,17 +617,7 @@ hr {
     background-repeat: no-repeat;
     margin-top: 10px;
   }
-  
-  .djList img {
-    width: 130px;
-    height: 130px;
-    object-position: bottom;
-    object-fit: cover;
-    padding-left: 40px;
-    padding-top: 30px;
-    margin-right: 15px;
-  }
-  
+
   .djContent h3 {
     color: var(--joyful);
     margin-top: 30px;
@@ -643,14 +638,7 @@ hr {
     margin-top: 17px;
     margin-bottom: 10px;
     color: white;
-    font-family:"cocogoose", sans-serif;
-  }
-
-  .sponsorList img {
-    width: 70%;
-    height: auto;
-    text-align: center;
-    margin-right: 9px;
+    font-family: "cocogoose", sans-serif;
   }
 
   .sponsorImg {
@@ -670,7 +658,7 @@ hr {
     padding: 20px 10px;
   }
 
-  .title{
+  .title {
     animation: MoveUpDown 3s linear 0s;
   }
 
@@ -683,6 +671,4 @@ hr {
       margin-left: 40px;
     }
   }
-
-
 }

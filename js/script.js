@@ -68,7 +68,7 @@ const object = [
 
 const dj = document.querySelector('.djitems');
 
-for (let i = 1; i <object.length; i += 1) {
+for (let i = 1; i < object.length; i += 1) {
   dj.innerHTML += `
   
   <div class='djList'>  
@@ -82,5 +82,3 @@ for (let i = 1; i <object.length; i += 1) {
   </div>
   </div>`;
 }
-
-
