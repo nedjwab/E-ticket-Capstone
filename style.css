@@ -401,7 +401,8 @@ hr {
 }
 
 .card:hover {
-  border: solid 2px white;
+  border: solid 1px white;
+  opacity: 0.8;
 }
 
 @media (min-width: 768px) {
@@ -531,7 +532,7 @@ hr {
   .cards {
     display: -ms-grid;
     display: grid;
-    grid-template-columns: 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
     width: 100%;
     margin-inline: auto;
     margin-top: 54px;

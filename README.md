@@ -4,6 +4,8 @@
 
 In this Project i have built a summer festival web site.
 
+![alt text](https://github.com/nedjwab/E-ticket-Capstone/blob/main/images/Mainscreenshot.png)
+ 
  
 
 ## Built With 🔨
@@ -33,7 +35,7 @@ go to the index.html file .
 - For anyone who wants to create his own portfolio.
 
 ## Live Demo 
-[Here](https://nedjwab.github.io/E-ticket-Capstone/) yo can find a live demo of my Portfolio .
+[Here](https://nedjwab.github.io/E-ticket-Capstone/) you can check the live demo of the web site .
 
 ## Authors
 
