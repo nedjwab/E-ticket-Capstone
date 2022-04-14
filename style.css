@@ -81,13 +81,6 @@ body {
   text-align: center;
 }
 
-.sponsorList {
-  -webkit-filter: grayscale(100%); 
-  moz-filter: grayscale(100%); 
-  filter: grayscale(100%); 
-  filter: gray; 
-}
-
 #logo img {
   margin-top: 9px;
   margin-left: 4px;
@@ -377,6 +370,10 @@ hr {
   margin-left: 17px;
   overflow-x: hidden;
   align-items: center;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
 }
 
 .sponsorImg {
@@ -650,7 +647,6 @@ hr {
     display: flex;
     flex-direction: row;
     width: 90%;
-    justify-content: space-evenly;
     padding: 14px;
     margin-left: 90px;
     overflow-x: hidden;

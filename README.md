@@ -53,4 +53,6 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 
- 
+##  Acknowledgements
+The design is from [Behance](https://www.behance.net/adagio07)
+
