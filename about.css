@@ -450,15 +450,6 @@ footer {
   padding: 20px 10px;
 }
 
-.footerContainer {
-  height: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 70%;
-  margin: auto;
-}
-
 .copy-right {
   font-size: 1rem;
   margin: 25px;
