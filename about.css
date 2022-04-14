@@ -224,7 +224,7 @@ p {
   font-size: 15px;
   color: var(--joyful);
   margin-left: 90px;
-  margin-top:5px;
+  margin-top: 5px;
 }
 
 .first-section-container {
@@ -503,7 +503,6 @@ footer {
     display: inline;
     width: 80%;
   }
-  
 
   .DesktopNav a {
     text-decoration: none;
