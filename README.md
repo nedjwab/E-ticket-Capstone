@@ -1,8 +1,8 @@
  ![](https://img.shields.io/badge/Microverse-blueviolet) 
 
-# First Capstone Project :Summer Festivel 2022
+# First Capstone Project: Summer Festival 2022
 
-In this Project i have built a summer festival web site.
+In this Project, I have built a summer festival website.
 
 ![alt text](https://github.com/nedjwab/E-ticket-Capstone/blob/project-branch/images/Mainscreenshot.png)
  
@@ -19,7 +19,7 @@ In this Project i have built a summer festival web site.
 ### Install
 Download the zip file.
 extract the folder.
-go to the index.html file .
+go to the index.html file.
 
 
 ### Prerequisites
@@ -32,11 +32,10 @@ go to the index.html file .
 ### Usage
 
 - For anyone who wants to practice html5 or/and css3
-- For anyone who wants to create his own portfolio.
+- For anyone who wants to create his portfolio.
 
 ## Live Demo 
-[Here](https://nedjwab.github.io/E-ticket-Capstone/) you can check the live demo of the web site .
-
+[Here](https://nedjwab.github.io/E-ticket-Capstone/) you can check the live demo of the website.
 ## Authors
 
 👤 **Nedjwa Bouraiou**
